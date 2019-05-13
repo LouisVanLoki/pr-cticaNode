@@ -18,7 +18,7 @@ const opciones = {
     }
 }
 
-let obtenerPromedio = (nota1, nota2, nota3) / 3;
+let obtenerPromedio = (nota_uno, nota_dos, nota_tres) => (nota_uno + nota_dos + nota_tres) / 3;
 
 const argv = require('yargs')
             .command('promedio', 'Calcular el promedio', opciones)
